@@ -30,6 +30,7 @@ Skaliranje podataka: Zbog osetljivosti na autlajere, izbegnut je StandardScaler.
 Podela skupa: Podaci su podeljeni na trening i test skup u odnosu 80/20. Korišćena je stratifikovana podela, čime je osigurano da procenat prevara (0.82%) bude identičan u oba skupa, što je preduslov za realnu procenu performansi modela.
 
 3. Arhitektura modela
+![Arhitektura modela](arhitektura.png)
 
 Za potrebe binarne klasifikacije transakcija, implementirana je Feedforward neuronska mreža (Multilayer Perceptron). Model je dizajniran tako da postigne balans između sposobnosti učenja kompleksnih obrazaca i otpornosti na pretreniranost (overfitting).
 
